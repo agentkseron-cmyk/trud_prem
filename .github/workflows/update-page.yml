@@ -3,7 +3,7 @@ name: Update HTML page
 on:
   schedule:
     - cron: '0 * * * *'      # запуск каждый час (в 00 минут, по UTC)
-  workflow_dispatch:          # запуск вручную из вкладки Actions
+  workflow_dispatch:          # возможность запустить вручную из вкладки Actions
 
 jobs:
   run-script:
@@ -20,6 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
+          pip install requests
           if [ -f requirements.txt ]; then
             pip install -r requirements.txt
           else
