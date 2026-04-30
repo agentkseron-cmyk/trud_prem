@@ -46,3 +46,7 @@ Select the Update HTML page workflow.
 Click Run workflow and wait for it to complete.
 
 After a successful run, a new commit from github-actions[bot] will appear, and the HTML page will be refreshed.
+
+***
+p.s. The rating data is calculated based on gift information from in-game character profiles.
+This data is not official and is provided for informational purposes only.
