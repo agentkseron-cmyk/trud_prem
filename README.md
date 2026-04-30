@@ -1,5 +1,6 @@
 Auto-updated clan rating
-This repository uses an automated Python script (7.py) to keep the rating HTML page up to date.
+This repository uses an automated Python script (7.py) to keep the rating HTML page up to date. 
+https://agentkseron-cmyk.github.io/trud_prem/rating_trud_premiya_clans.html
 
 What 7.py does
 Fetches the latest clan data via HTTP requests using requests.
